@@ -1,11 +1,11 @@
-# 学习笔记
+# My Projects
 
 !!! note "[MrHelper](https://mrhelper.io)"
 
-    Medical Review Helper - 医学综述助手
+    Medical Review Helper - 医学综述助手 - [说明](https://zhuanlan.zhihu.com/p/39306824)
 
-!!! note "[Moodle](https://www.dearfad.com/moodle)"
+!!! note "[MmHelper](https://github.com/dearfad/mmhelper)"
 
-    Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.
+    Medical Manuscript Helper - 医学论文助手 - [说明](https://zhuanlan.zhihu.com/p/47755088)
 
 !!! note "[吉ICP备15007542号](http://www.miitbeian.gov.cn)"
