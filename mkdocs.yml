@@ -1,0 +1,10 @@
+site_name: DEARFAD
+
+theme: material
+
+# Copyright
+copyright: 'Copyright &copy; 2018 dearfad'
+
+# Extensions
+markdown_extensions:
+  - admonition
