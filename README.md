@@ -8,7 +8,7 @@ useradd -m dearfad
 passwd dearfad
 vim /etc/sudoers
 
-# Install Docker for Ubuntu 18.04
+# Install Docker for CentOS 7.6
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
