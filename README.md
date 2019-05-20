@@ -20,7 +20,7 @@ sudo usermod -aG docker $USER
 sudo systemctl enable docker
 
 # Start Services
-docker run -d --name dearfad.com -p 80:80 dearfad/dearfad.com
+docker run -d --name httpd -p 80:80 dearfad/dearfad.com
 docker run -d --name mmhelper -p 8888:8888 dearfad/mmhelper start.sh jupyter notebook --NotebookApp.token=''
 
 ```
