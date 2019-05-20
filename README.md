@@ -6,6 +6,7 @@ Files for dearfad.com
 # Add User
 useradd -m dearfad
 passwd dearfad
+vim /etc/sudoers
 
 # Install Docker for Ubuntu 18.04
 
