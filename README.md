@@ -4,13 +4,16 @@ Files for dearfad.com
 ```sh
 
 # Add User
-useradd -m xxxx
-passwd xxxx
+useradd -m dearfad
+passwd dearfad
 
 # Install Docker for Ubuntu 18.04
 
 $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
+
+# Use Docker as a non-root user
+sudo usermod -aG docker dearfad
 
 # Start Services
 docker run -d --name dearfad.com -p 80:80 dearfad/dearfad.com
