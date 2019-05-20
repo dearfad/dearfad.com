@@ -9,8 +9,8 @@ passwd dearfad
 
 # Install Docker for Ubuntu 18.04
 
-$ curl -fsSL https://get.docker.com -o get-docker.sh
-$ sudo sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 
 # Use Docker as a non-root user
 sudo usermod -aG docker $USER
