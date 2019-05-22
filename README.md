@@ -21,6 +21,6 @@ sudo systemctl enable docker
 
 # Start Services
 docker run -d --name httpd -p 80:80 dearfad/dearfad.com
-docker run -d --name mmhelper -p 8888:8888 dearfad/mmhelper start.sh jupyter notebook --NotebookApp.token=''
+docker run -d --name mmhelper --restart=always -p 8888:8888 dearfad/mmhelper start.sh jupyter notebook --NotebookApp.token=''
 
 ```
