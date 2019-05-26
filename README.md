@@ -20,8 +20,13 @@ sudo usermod -aG docker $USER
 sudo systemctl enable docker
 sudo systemctl start docker
 
-# Start Services
+# Start httpd Service
 docker run -d --name httpd -p 80:80 dearfad/dearfad.com
+
+# Start mmhelper Service
 docker run -d --name mmhelper --restart=always -p 8888:8888 dearfad/mmhelper start.sh jupyter notebook --NotebookApp.token=''
+
+# Start mrhelper Service
+sudo yum install xorg-x11-xauth
 
 ```
