@@ -4,7 +4,7 @@ Files for dearfad.com
 ```sh
 
 # Add User
-useradd -m -s /bin/bash dearfad
+useradd -m dearfad
 passwd dearfad
 vim /etc/sudoers
 
