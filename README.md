@@ -18,6 +18,7 @@ sudo usermod -aG docker $USER
 
 # Configure Docker to start on boot
 sudo systemctl enable docker
+sudo systemctl start docker
 
 # Start Services
 docker run -d --name httpd -p 80:80 dearfad/dearfad.com
