@@ -28,5 +28,15 @@ docker run -d --name mmhelper --restart=always -p 8888:8888 dearfad/mmhelper sta
 
 # Start mrhelper Service
 sudo yum install xorg-x11-xauth
+sudo yum install bzip2
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sudo sh Miniconda3-latest-Linux-x86_64.sh
+cd ~/miniconda3
+conda init
+mkdir ~/.pip
+vim ~/.pip/pip.conf
+[global]
+trusted-host=mirrors.aliyun.com
+index-url=https://mirrors.aliyun.com/pypi/simple/
 
 ```
