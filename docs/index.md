@@ -8,4 +8,4 @@
 
     Medical Manuscript Helper - 医学论文助手 - [说明](https://zhuanlan.zhihu.com/p/47755088)
 
-!!! note "[吉ICP备15007542号](http://www.miitbeian.gov.cn)"
+!!! note "[吉ICP备15007542号](http://beian.miit.gov.cn)"
