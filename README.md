@@ -13,8 +13,19 @@ vim /etc/sudoers
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
+# Install Docker for Aliyun Linux 2.1903
+
+sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io
+
 # Use Docker as a non-root user
+
 sudo usermod -aG docker $USER
+
+# Log out and log back for group membership re-evaluated
+
+logout
 
 # Configure Docker to start on boot
 sudo systemctl enable docker
