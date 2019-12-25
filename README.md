@@ -34,6 +34,12 @@ sudo systemctl start docker
 # Start httpd Service
 docker run -d --name httpd -p 80:80 dearfad/dearfad.com
 
+# Start Protainer
+
+# Start Moon Predictor
+
+# Start OpenVPN
+
 # Start mmhelper Service
 docker run -d --name mmhelper --restart=always -p 8888:8888 dearfad/mmhelper start.sh jupyter notebook --NotebookApp.token=''
 
