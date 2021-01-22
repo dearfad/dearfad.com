@@ -1,6 +1,6 @@
 # My Projects
 
-!!! note "[MrHelper](https://mrhelper.io)"
+!!! note "[MrHelper](https://dearfad.github.io/mrhelper)"
 
     Medical Review Helper - 医学综述助手 - [说明](https://zhuanlan.zhihu.com/p/39306824)
 

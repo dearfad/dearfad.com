@@ -3,7 +3,7 @@ site_name: DEARFAD
 theme: material
 
 # Copyright
-copyright: 'Copyright &copy; 2019 dearfad'
+copyright: 'Copyright &copy; 2019-2021 dearfad'
 
 # Extensions
 markdown_extensions:
